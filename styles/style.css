@@ -7,6 +7,7 @@
 html, body {
   font-family: "oswald", sans-serif;
   color: white;
+  overflow: hidden;
 }
 
 body {
@@ -30,6 +31,7 @@ body {
 }
 
 .modules > div {
+  z-index: 1;
   position: absolute;
   left: 50%;
   width: 5px;
@@ -83,8 +85,7 @@ body {
 
 
 .modules > div:hover {
-  transform: scale(1.2);
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #ffffff;
   transition: transform 0.15s ease-in-out;
   will-change: transform;
 }
@@ -110,7 +111,7 @@ body {
   position: absolute;
   height: 100vh;
   top: 0;
-  left: 15%;
+  left: -5%;
   animation-name: hovering;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -187,6 +188,12 @@ body {
   text-align: center;
 }
 
+/*** POSITION 1 ***/
+
+
+
+/*** POSITION 2 ***/
+
 /*** ANNEXES ***/
 
 .informations .annexes {
@@ -237,7 +244,7 @@ body {
 }
 
 .social-medias > div:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
   opacity: 1;
 }
 
