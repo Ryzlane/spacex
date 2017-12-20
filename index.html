@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Falcon 9 experiment</title>
+    <title>SpaceXperience</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
@@ -18,28 +17,20 @@
     <script src="https://use.fontawesome.com/7a59d15f7f.js"></script>
 </head>
 <body>
-    <canvas width="800" height="600"></canvas>
-
-    <div class="logo"><img src="images/logo.png" width="75" alt="logo"></div>
 
     <section class="global-timeline">
         <div class="global-line">
             <div class="modules">
-                <div class="module-15" data-selection="not-selected"><p class="title">Blblbl</p></div>
-                <div class="module-14" data-selection="not-selected"><p class="title">Blblbl</p></div>
-                <div class="module-13" data-selection="not-selected"><p class="title">Blblbl</p></div>
-                <div class="module-12" data-selection="not-selected"><p class="title">Blblbl</p></div>
-                <div class="module-11" data-selection="not-selected"><p class="title">Blblbl</p></div>
-                <div class="module-10" data-selection="not-selected"><p class="title">Blblbl</p></div>
-                <div class="module-9" data-selection="not-selected"><p class="title">Blblbl</p></div>
-                <div class="module-8" data-selection="not-selected"><p class="title">Blblbl</p></div>
-                <div class="module-7" data-selection="not-selected"><p class="title">Blblbl</p></div>
-                <div class="module-6" data-selection="not-selected"><p class="title">Blblbl</p></div>
-                <div class="module-5" data-selection="not-selected"><p class="title">Blblbl</p></div>
-                <div class="module-4" data-selection="not-selected"><p class="title">Blblbl</p></div>
-                <div class="module-3" data-selection="not-selected"><p class="title">Blblbl</p></div>
-                <div class="module-2" data-selection="not-selected"><p class="title">Falcon 1.1</p></div>
-                <div class="module-1" data-selection="selected"><p class="title">Blblbl</p></div>
+                <div class="module-10" data-selection="not-selected"><p class="title">10</p></div>
+                <div class="module-9" data-selection="not-selected"><p class="title">09</p></div>
+                <div class="module-8" data-selection="not-selected"><p class="title">08</p></div>
+                <div class="module-7" data-selection="not-selected"><p class="title">07</p></div>
+                <div class="module-6" data-selection="not-selected"><p class="title">06</p></div>
+                <div class="module-5" data-selection="not-selected"><p class="title">05</p></div>
+                <div class="module-4" data-selection="not-selected"><p class="title">04</p></div>
+                <div class="module-3" data-selection="not-selected"><p class="title">03</p></div>
+                <div class="module-2" data-selection="not-selected"><p class="title">02</p></div>
+                <div class="module-1" data-selection="selected"><p class="title">01</p></div>
             </div>
         </div>
     </section>
@@ -48,14 +39,19 @@
         <div class="spaceship"><img src="images/falcon9.png" width="40px" alt="Spaceship"></div>
     </div>
     <section class="informations">
-        <article class="details"><div class="details-content"><h1>FALCON 1.1 - Premier échec</h1><p>En 2006 a lieu le premier lancement de SpaceX, Falcon 1. Le 24 mars, le premier vol a lieu, après 6 mois de retard. C’est un échec, le moteur Merlin s’arrête prématurément, le lanceur est détruit après moins d’une minute de vol, atteignant seulement 1800 mètres d’altitudes. 
-            La vidéo du vol montre la retombée du lanceur à 1km du pad dans une gigantesque boule de feu. Il n'y avait personne sur l'atoll pendant le lancement, mais de nombreuses caméras ont filmé l'explosion et la fumée qui a enveloppé le site. Le reste du lanceur a été récupéré après la barrière de corail. L'analyse montrera un défaut dans le moteur Merlin. Pendant les semaines qui ont précédé le tir, le sel marin a corrodé un écrou en aluminium dans le moteur. Juste avant l'allumage de dernier, quand les vannes ont été ouvertes, il a cassé et provoqué une fuite. A l'allumage, le carburant répandu à pris feu. 34 secondes après le décollage, les flammes ont traversé une ligne pneumatique et éteint le moteur.
-            </p></div></article>
+        <article class="details">
+            <div class="details-content">
+                <h1 class="actual-module">01</h1>
+                <h2 class="actual-module-title">24 mars 2006 <br /> Falcon 1</h1>
+                <p class="first-part">En 2006 a lieu le <span class="important-text">premier lancement de SpaceX</span>, Falcon 1. Le 24 mars, le premier vol a lieu, après 6 mois de retard. C’est <span class="important-text">un échec</span>, le moteur Merlin s’arrête prématurément, le lanceur est détruit après moins d’une minute de vol, atteignant seulement 1800 mètres d’altitudes.</p>
+                <div class="video-archive"><iframe width="400" height="200" src="https://www.youtube.com/embed/0a_00nJ_Y88" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
+                <p>La <span class="important-text">vidéo du vol</span> montre la retombée du lanceur à 1km du pad dans une gigantesque boule de feu. Il n'y avait personne sur l'atoll pendant le lancement, mais de nombreuses caméras ont filmé l'explosion et la fumée qui a enveloppé le site. Le reste du lanceur a été récupéré après la barrière de corail. L'analyse montrera un <span class="important-text">défaut dans le moteur Merlin</span>. Pendant les semaines qui ont précédé le tir, le sel marin a corrodé un <span class="important-text">écrou en aluminium</span> dans le moteur. Juste avant l'allumage de dernier, quand les vannes ont été ouvertes, il a cassé et provoqué une fuite. A l'allumage, le carburant répandu à pris feu. <span class="important-text">34 secondes après le décollage</span>, les flammes ont traversé une ligne pneumatique et éteint le moteur.                    
+                </p>
+            </div>
+        </article>
         <div class="annexes">
-            <div class="twitter-feed"><div class="twitter-content"><blockquote class="twitter-tweet" height="100px" data-lang="fr"><p lang="fr" dir="ltr">Chaque matin, il branchait son cerveau au projecteur pour revoir ses rêves de la veille. Il diffusait les meilleurs en ligne, et recevait toujours de bons commentaires. Mais un jour, ses rêves furent retirés : une grande compagnie trouvait qu&#39;ils étaient inspirés de leurs films.</p>&mdash; Nanofictions (@nanofictions) <a href="https://twitter.com/nanofictions/status/943058264337592320?ref_src=twsrc%5Etfw">19 décembre 2017</a></blockquote>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div></div>
-            <div class="video-archives"><div class="video-archives-content"><iframe width="100%" src="https://www.youtube.com/embed/q6EoRBvdVPQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div></div>
+            <h3><span>étapes</span> <br /> du falcon 1</h3>
+            <div class="illustration"><img src="images/sketch.png" alt=""></div>
         </div>
     </section>
 
@@ -68,7 +64,6 @@
         </div>
     </div>
 
-    <script src="scripts/stars.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
