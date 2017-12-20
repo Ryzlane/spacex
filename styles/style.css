@@ -77,6 +77,15 @@ canvas {
   display: inherit;
 }
 
+.modules > div[data-selection="selected"] {
+  transform: scale(2);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.modules > div[data-selection="selected"] p {
+  display: inherit;
+}
+
 /********************
 
     ACTUAL POSITION
