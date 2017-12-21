@@ -17,6 +17,12 @@ body {
   height: 100vh;
 }
 
+.logo {
+  position: absolute;
+  top: 2%;
+  right: 1%;
+}
+
 /********************
 
     GLOBAL TIMELINE
