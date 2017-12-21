@@ -18,5 +18,5 @@ for(let i = 0; i < tabModules.length; i++) {
 }
 
 changingContent = (selection) => {
-    informations.innerHTML = content.first
+    informations.innerHTML = content.eight
 }

@@ -5,9 +5,10 @@
 ********************/
 
 html, body {
-  font-family: "oswald", sans-serif;
+  font-family: "roboto", sans-serif;
   color: white;
   overflow: hidden;
+  font-size: 1em;
 }
 
 body {
@@ -91,8 +92,9 @@ body {
 }
 
 .modules > div p {
+  font-family: "oswald", sans-serif;
   padding-left: 15px;
-  font-size: 20px;
+  font-size: 1.2em;
   line-height: 5px;
   color: #f4b219;
 }
@@ -111,7 +113,7 @@ body {
   position: absolute;
   height: 100vh;
   top: 0;
-  left: -5%;
+  left: 13%;
   animation-name: hovering;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -144,7 +146,7 @@ body {
   left: 25%;
 }
 
-.informations .details {
+.informations .details.one {
   position: relative;
   width: 45%;
   top: 0;
@@ -157,27 +159,29 @@ body {
 .informations .details .details-content h1 {
   position: absolute;
   color: #f4b219;
-  font-size: 100px;
+  font-size: 6.2em;
   line-height: 100px;
+  font-family: "oswald", sans-serif;
 }
 
 .informations .details .details-content h2 {
-  font-size: 50px;
+  font-size: 3.2em;
   line-height: 50px;
+  font-family: "oswald", sans-serif;
   text-transform: uppercase;
-  margin-left: 100px;
+  margin-left: 110px;
   color: #ffffff;
 }
 
 .informations .details .details-content {
-  font-size: 14px;
   font-weight: 300;
   text-align: justify;
   color: #707278;
+  font-family: "roboto", sans-serif;
 }
 
 .informations .details .details-content p {
-  margin: 25px 0;;
+  margin: 25px 0;
 }
 
 .informations .details .details-content p .important-text {
@@ -187,14 +191,6 @@ body {
 .informations .details .details-content .video-archive {
   text-align: center;
 }
-
-/*** POSITION 1 ***/
-
-
-
-/*** POSITION 2 ***/
-
-/*** ANNEXES ***/
 
 .informations .annexes {
   position: absolute;
@@ -210,6 +206,7 @@ body {
   font-size: 36px;
   text-transform: uppercase;
   line-height: 36px;
+  font-family: "oswald", sans-serif;
 }
 
 .informations .annexes h3 span {
@@ -218,6 +215,37 @@ body {
 
 .informations .annexes .illustration img {
   width: 450px;
+}
+
+/*** POSITION 8 ***/
+
+.details.eight {
+  width: 70%;
+}
+
+.details.eight .details-content h3 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #f4b219;
+  font-family: "oswald", sans-serif;
+}
+
+.details.eight .details-content .reaction {
+  color: #ffffff;
+  font-family: "roboto", sans-serif;
+  margin-bottom: 0px;
+  width: 70%;
+}
+
+.details.eight .details-content .quoted {
+  margin: 0;
+  font-family: "oswald", sans-serif;
+}
+
+.details.eight .video-archive {
+  position: absolute;
+  right: 5%;
+  top: 50%;
 }
 
 /********************
@@ -230,9 +258,8 @@ body {
   position: absolute;
   bottom: 15px;
   right: 30px;
-  font-size: 36px;
+  font-size: 2.3em;
   color: white;
-
 }
 
 .social-medias > div {
