@@ -190,17 +190,20 @@ body {
   color: #ffffff;
 }
 
+.informations .annexes {
+  position: absolute;
+  width: 30%;
+  right: 10%;
+}
+
 /*** POSITION 1 ***/
 
 .informations .details .details-content .video-archive {
   text-align: center;
 }
 
-.informations .annexes {
-  position: absolute;
-  top: 5%;
-  width: 30%;
-  right: 10%;
+.informations .annexes.one {
+  top: 0;
 }
 
 .informations .annexes h3 {
@@ -219,6 +222,35 @@ body {
 
 .informations .annexes .illustration img {
   width: 400px;
+  bottom: 0;
+}
+
+/*** POSITION 1 MODIFIED  ***/
+
+.informations .annexes {
+  top: 0;
+  right: 5%;
+  height: 100%;
+  width: 40%;
+}
+
+.informations .annexes h3.modified {
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3em;
+  line-height: 50px;
+}
+
+.informations .annexes .illustration.components-falcon9 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.informations .annexes .illustration.components-falcon9 img {
+  width: 200px;
 }
 
 /*** POSITION 2 ***/
