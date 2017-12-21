@@ -29,7 +29,23 @@ content = {
         <div class="baseterrestre"><img src="images/baseterrestre.jpg" width="200px" alt="sketch"></div>
     </div>
     <p class="center-text">Le<span class="important-text"> moteur Merlin</span> à erglos liquides brûle de l'oxygène liquide et du RP-1 (une variante du kérosène) qui constitue le mélange le plus utilisé par les moteurs développés récemment.</p>`,
-    three: ``,
+    three: `
+    <article class="details two modified">
+        <div class="details-content">
+            <h1 class="actual-module">03</h1>
+            <h2 class="actual-module-title">03 août 2008<br />Falcon 1</h1>
+            <p>Dans la perspective d’un coup médiatique, le troisième vol du lanceur <span class="important-text">Falcon 1</span> devait emporter les cendres de la star de la série <span class="important-text">Star Trek, James Doohan</span>, dans l’espace.<br /><br />
+            Cependant ce vol aussi est un échec puisque le <span class="important-text">second étage</span>, allumé au moment de la séparation avec le premier étage, détruisit la <span class="important-text">tuyère</span> du moteur dont la paroi est aussi mince qu'une canette de soda. La charge utile termine dans l’eau.  La compagnie frôle la mort avec ce troisième échec, mais elle est sauvée de peu par <span class="important-text">Peter Thiel</span> qui se trouve être le premier investisseur extérieur de SpaceX.</p>
+                <div class="video-archive"><iframe width="400" height="200" src="https://www.youtube.com/embed/0a_00nJ_Y88" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
+        </div>
+    </article>
+    <div class="annexes two modified">
+        <h3>ANNEXES</h3>
+        <p><span class="important-text">Peter Thiel</span> est un ancien champion d’échecs aujourd’hui multi-milliardaire, <span class="important-text">fondateur de Paypal, membre du conseil d’administration de Facebook</span> et l’un des principaux investisseurs de SpaceX. </p>
+        <div class="peter-thiel"><img src="images/peter-thiel.png" width="150px" alt="Peter Thiel"></div>
+    </div>
+    <p class="center-text">La <span class="important-text">tuyère</span> correspond à un conduit droit de taille variable situé à l’arrière d’un <span class="important-text">moteur thermique</span> permettant de transformer l’<span class="important-text">énergie thermique</span> en <span class="important-text">énergique cinétique</span>.</p>
+    <div class="tuyere"><img src="images/tuyere.png" width="125px" alt="tuyère"></div>`,
     four: ``,
     five: ``,
     six: ``,

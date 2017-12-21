@@ -285,6 +285,16 @@ body {
   top: 10%;
 }
 
+.informations .center-text {
+  bottom: 0;
+}
+
+.informations .tuyere {
+  position: absolute;
+  bottom: 0;
+  right: 40%;
+}
+
 /*** POSITION 8 ***/
 
 .details.eight {
