@@ -76,7 +76,21 @@ const content = {
         <h3 class="modified"><span>plan du<br />falcon 9</span></h3>
         <div class="illustration components-falcon9"><img src="images/components-falcon9.png" alt="Composants du lanceur Falcon 9"></div>
     </div>`,
-    six: ``,
+    six: `
+    <article class="details two">
+        <div class="details-content">
+            <h1 class="actual-module">06</h1>
+            <h2 class="actual-module-title">08 octobre 2012<br /> Falcon 9</h1>
+            <p class="first-part">Le premier vol opérationnel pour le Falcon 9 a eu lieu le <span class="important-text">8 octobre 2012</span>. A son bord, <span class="important-text">905 kg de fret</span> à destination de la <span class="important-text">Station Spatiale Internationale (ISS)</span>.<br /><br />
+            La mission se déroule sans accroc. Le vaisseau est détaché de la station et effectue un amerrissage dans l'<span class="important-text">Océan Pacifique</span> après sa rentrée atmosphérique. Les équipes de SpaceX et de la NASA parviennent à récupérer le vaisseau et son contenu sans aucun difficulté.</p>
+            <div class="video-archive"><iframe width="100%" height="200px" src="https://www.youtube.com/embed/nxSxgBKlYws" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
+        </div>
+    </article>
+    <div class="annexes two"> 
+        <h3>ANNEXES</h3>
+        <p class="right-text">La plateforme <span class="important-text">Of Course I Still Love You</span> est un navire drone capable d’accueillir le 1er étage du lanceur Falcon 9 dans le but de le réutiliser. C’est la seconde barge de ce type, succédant à la barge <span class="important-text">Just read the instruction</span>, qui n’est aujourd’hui plus en service.</p>
+        <div class="basemarine"><img src="images/basemarine.jpg" width="200px" height="125px" alt="sketch"></div>
+    </div>`,
     seven: ``,
     eight: `
     <article class="details eight">

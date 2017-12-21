@@ -288,8 +288,14 @@ body {
 
 .informations .annexes.two .baseterrestre {
   position: absolute;
+  top: 0;
   right: 0;
-  top: 40%;
+}
+
+.informations .annexes.two .basemarine {
+  position: absolute;
+  top: 5%;
+  right: 0;
 }
 
 .informations .center-text {
