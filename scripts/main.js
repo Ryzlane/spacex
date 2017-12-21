@@ -1,13 +1,16 @@
 // VARIABLES DECLARATION
 const tabModules = document.querySelectorAll(".modules > div")
+const informationsOut = document.querySelector(".informations-out")
 const informations = document.querySelector(".informations")
 const detailsContent = document.querySelector(".details-content")
 const rocket = document.querySelector(".rocket")
 
-rocket.draggable = true
-
 changingContent = (selected) => {
-    informations.innerHTML = content[selected]
+    informationsOut.classList.add("is-active")
+    setTimeout(function() {
+        informationsOut.classList.remove("is-active")
+        informations.innerHTML = content[selected]
+      }, 300)
 }
 
 changingRocket = (selected) => {
