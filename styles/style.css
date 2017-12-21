@@ -142,6 +142,7 @@ body {
 
 .informations {
   position: absolute;
+  height: 90%;
   top: 50%;
   transform: translateY(-50%);
   left: 25%;
@@ -264,6 +265,24 @@ body {
   width: 40%;
   font-size: 0.9em;
   font-style: italic;
+}
+
+/*** POSITION 2 MODIFIED ***/
+
+.informations .details.two.modified {
+  width: 80%;
+}
+
+.informations .annexes.two.modified {
+  width: 50%;
+  top: 50%;
+  right: 5%;
+}
+
+.informations .annexes.two .peter-thiel {
+  position: absolute;
+  right: 0;
+  top: 10%;
 }
 
 /*** POSITION 8 ***/
