@@ -22,7 +22,7 @@ changingRocket = (selected) => {
     }
 }
 
-// main function that is activated by changing selected module
+// main function that is activated by changing selected module on click
 for(let i = 0; i < tabModules.length; i++) {
     tabModules[i].addEventListener("click", () => {
         for(let j = 0; j < tabModules.length; j++) {

@@ -170,7 +170,7 @@ const intro = () =>
   context.font = ` ${window.innerWidth/50}px Oswald`
    if(secIntro>=0 && secIntro <= 16)
    {
-    context.fillText(pressSpace, $canvas.width/2, (window.innerWidth/1.7)/1.3)  
+    context.fillText(pressSpace, $canvas.width/2, (window.innerWidth/1.7)/1.4)  
    }
  }
   if(device == 1)   // for iphone/mobile etc swap vidéo
