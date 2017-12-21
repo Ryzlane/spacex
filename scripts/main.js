@@ -4,6 +4,8 @@ const informations = document.querySelector(".informations")
 const detailsContent = document.querySelector(".details-content")
 const rocket = document.querySelector(".rocket")
 
+rocket.draggable = true
+
 changingContent = (selected) => {
     informations.innerHTML = content[selected]
 }
