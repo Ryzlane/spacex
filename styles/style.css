@@ -199,6 +199,13 @@ body {
 
 /*** POSITION 1 ***/
 
+.informations .details .details-content h3 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #f4b219;
+  font-family: "oswald", sans-serif;
+}
+
 .informations .details .details-content .video-archive {
   text-align: center;
 }
@@ -206,6 +213,7 @@ body {
 .informations .annexes.one {
   top: 0;
   right: 0;
+  height: 85%;
 }
 
 .informations .annexes h3 {
@@ -228,6 +236,14 @@ body {
 }
 
 /*** POSITION 1 MODIFIED  ***/
+
+.informations .details.one.modified p {
+  width: 80%;
+}
+
+.informations .details.one.modified .video-archive {
+  text-align: left;
+}
 
 .informations .annexes {
   top: 0;
@@ -269,7 +285,7 @@ body {
 
 .informations .annexes.two {
   width: 55%;
-  top: 55%;
+  top: 60%;
   right: 5%;
 }
 
@@ -309,14 +325,31 @@ body {
 
 /*** POSITION 2 MODIFIED ***/
 
-.informations .details.two.modified {
-  width: 80%;
-}
-
 .informations .annexes.two.modified {
   width: 50%;
   top: 50%;
   right: 5%;
+}
+
+.informations .annexes.two.modified.bis {
+  top: 30%;
+  right: 0%;
+}
+
+.informations .annexes.two.modified.bis .dragon {
+  margin-top: 10px;
+  float: left;
+  padding-right: 10px;
+}
+
+.informations .annexes.two.modified.bis .dragon-text {
+  margin-top: 10px;
+  margin-left: 5px
+}
+
+.informations .annexes.two.modified.bis p {
+  width: 90%;
+  font-style: inherit;
 }
 
 .informations .annexes.two p.modified {
@@ -374,6 +407,15 @@ body {
   position: absolute;
   right: 5%;
   top: 50%;
+}
+
+/*** 10 ***/
+
+.informations .video-annexe {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /********************

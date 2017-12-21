@@ -91,7 +91,21 @@ const content = {
         <p class="right-text">La plateforme <span class="important-text">Of Course I Still Love You</span> est un navire drone capable d’accueillir le 1er étage du lanceur Falcon 9 dans le but de le réutiliser. C’est la seconde barge de ce type, succédant à la barge <span class="important-text">Just read the instruction</span>, qui n’est aujourd’hui plus en service.</p>
         <div class="basemarine"><img src="images/basemarine.jpg" width="200px" height="125px" alt="sketch"></div>
     </div>`,
-    seven: ``,
+    seven: `
+    <article class="details two">
+        <div class="details-content">
+            <h1 class="actual-module">07</h1>
+            <h2 class="actual-module-title">28 juin 2015<br /> Falcon 9</h1>
+            <p class="first-part">La mission <span class="important-text">CR-7</span> est lancée par un Falcon 9 surmonté d'une <span class="important-text">capsule Dragon</span> sans pilote destinée à ravitailler la Station Spatiale Internationale. Toutes les statistiques sont conformes jusqu’à ce qu’un <span class="important-text">nuage de vapeur</span> commence à se former à l'extérieur de l'engin.<br /><br />
+            Quelques secondes plus tard, une perte de pression du <span class="important-text">réservoir d'hélium</span> survient, s’ensuit alors une explosion des réservoirs. Le logiciel n'étant pas programmé pour déployer le parachute de la capsule du Dragon après un échec du lancement, ce dernier s’écrase. L'enquête a montré qu’un support des réservoirs d'hélium aurait <span class="important-text">éclaté</span> sous la force de l’<span class="important-text">accélération</span>, menant à une <span class="important-text">fuite de gaz</span> et <span class="important-text">désintégration de la fusée</span>.</p>
+            <div class="video-archive"><iframe width="100%" height="200px" src="https://www.youtube.com/embed/PuNymhcTtSQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
+        </div>
+    </article>
+    <div class="annexes two"> 
+        <h3>ANNEXES</h3>
+        <p class="right-text">La plateforme <span class="important-text">Of Course I Still Love You</span> est un navire drone capable d’accueillir le 1er étage du lanceur Falcon 9 dans le but de le réutiliser. C’est la seconde barge de ce type, succédant à la barge <span class="important-text">Just read the instruction</span>, qui n’est aujourd’hui plus en service.</p>
+        <div class="baseterrestre"><img src="images/helium-tank.png" width="200px" alt="sketch"></div>
+    </div>`,
     eight: `
     <article class="details eight">
         <div class="details-content">
@@ -109,6 +123,34 @@ const content = {
         </div>
         <div class="video-archive"><iframe width="400" height="250" src="https://www.youtube.com/embed/ANv5UfZsvZQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
     </article>`,
-    nine: ``,
-    teen: ``
+    nine: `
+    <article class="details one modified">
+        <div class="details-content">
+            <h1 class="actual-module">09</h1>
+            <h2 class="actual-module-title">21 janvier 2016 <br /> Falcon Full Thrust</h1>
+            <p class="first-part">Le 21 janvier, la mission se déroule comme il se doit, jusqu’à l’atterrissage. Une jambe d'atterrissage n’a pas réussi à se déployer, provoquant la chute de la fusée entière. La fusée avait bien ciblé la barge flottante, la vitesse d’atterrissage était parfaite, mais une anomalie au niveau des jambes est survenue.</p>
+            <div class="video-archive"><iframe width="400" height="200" src="https://www.youtube.com/embed/0a_00nJ_Y88" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
+            <p>En soi, la mission a été un succès. Sa charge utile - un satellite de surveillance nommé Jason-3 - a été déposée en orbite. De plus, SpaceX a et aura beaucoup d'autres occasions de peaufiner ce genre d’atterissage sur barge.</p>
+        </div>
+    </article>
+    <div class="annexes two modified bis">
+        <h3>progrès</h3>
+        <p>Le <span class="important-text">8 avril</span> de cette même année, lors d’un <span class="important-text">nouvel essai</span>, nous assistons à la <span class="important-text">première fusée qui se pose sans dégât</span> sur une plateforme située dans l’Océan Atlantique. C’est un grand pas en avant.<br /><br/>
+        De plus, la fusée a pu envoyé en orbite le <span class="important-text">vaisseau cargo spatial Dragon</span> pour le compte de la NASA, qui assure le <span class="important-text">ravitaillement de l’ISS</span> (station spatiale internationale).</p>
+        <div class="dragon"><img src="images/dragon.jpg" width="300px" alt="Cargo dragon"></div>
+        <p class="dragon-text">Vaisseau cargo SpaceX Dragon, ou Dragon, pouvant transporter une cargaison de 3310 kg au maximum.</p>
+    </div>`,
+    ten: `
+    <article class="details one modified">
+        <div class="details-content">
+            <h1 class="actual-module">10</h1>
+            <h2 class="actual-module-title">30 mars 2017 <br /> Falcon Full Thrust</h1>
+            <p class="first-part">A l'occasion de la <span class="important-text">mission SES-10</span>, SpaceX <span class="important-text">réutilise</span> pour la première fois un <span class="important-text">premier étage</span> ayant précédemment servi à mettre en orbite le vaisseau Dragon lors de la mission CRS-849,50. Le premier étage est de nouveau récupéré sur la barge autonome “Of Course I Still Love You” située dans l’Atlantique.<br />
+            Réutiliser un étage est une <span class="important-text">opération inédite</span> dans le domaine de l’aérospatial. Elon Musk avait assuré fin 2015 qu'il pourrait théoriquement être <span class="important-text">recyclé jusqu'à cent fois</span>, tout en estimant pouvoir le faire revoler de dix à vingt fois.<br /><br />      
+            Nous entrons de ce fait dans une toute <span class="important-text">nouvelle ère</span>...</p>
+            <h3>apports, essors, évolution...</h3>
+            <p>Par le biais de ses <span class="important-text">multiples tentatives</span>, bien que marquées par des <span class="important-text">échecs assez fréquents</span>, la société SpaceX a démontré que <span class="important-text">les échecs sont la clé de la réussite</span>.</p>
+        </div>
+    </article>
+    <div class="video-annexe"><iframe width="400" height="200" src="https://www.youtube.com/embed/qXzyrTQoNYs" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>`
 }
