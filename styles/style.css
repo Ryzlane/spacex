@@ -142,7 +142,8 @@ body {
 
 .informations {
   position: absolute;
-  top: 5%;
+  top: 50%;
+  transform: translateY(-50%);
   left: 25%;
 }
 
