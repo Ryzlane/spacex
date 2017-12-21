@@ -6,7 +6,7 @@
 
 html, body {
   font-family: "roboto", sans-serif;
-  color: white;
+  color: #707278;
   overflow: hidden;
   font-size: 1em;
 }
@@ -148,7 +148,7 @@ body {
 
 .informations .details.one {
   position: relative;
-  width: 45%;
+  width: 60%;
   top: 0;
 }
 
@@ -184,9 +184,11 @@ body {
   margin: 25px 0;
 }
 
-.informations .details .details-content p .important-text {
+.informations .important-text {
   color: #ffffff;
 }
+
+/*** POSITION 1 ***/
 
 .informations .details .details-content .video-archive {
   text-align: center;
@@ -195,8 +197,8 @@ body {
 .informations .annexes {
   position: absolute;
   top: 5%;
-  width: 35%;
-  right: 15%;
+  width: 30%;
+  right: 10%;
 }
 
 .informations .annexes h3 {
@@ -214,7 +216,53 @@ body {
 }
 
 .informations .annexes .illustration img {
-  width: 450px;
+  width: 400px;
+}
+
+/*** POSITION 2 ***/
+
+.informations .details.two {
+  width: 60%;
+}
+
+.informations .details.two .details-content .video-archive {
+  text-align: left;
+  width: 50%;
+  height: 100%;
+}
+
+.informations .annexes.two {
+  width: 55%;
+  top: 55%;
+  right: 5%;
+}
+
+.informations .annexes.two h3 {
+  top: 0;
+  left: 0;
+  font-size: 3em;
+  color: #f4b219;
+}
+
+.informations .annexes.two p {
+  margin-top: 55px;
+  width: 60%;
+  font-size: 0.9em;
+  font-style: italic;
+  text-align: justify;
+}
+
+.informations .annexes.two .baseterrestre {
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+
+.informations .center-text {
+  margin-top: 30px;
+  width: 40%;
+  font-size: 0.9em;
+  font-style: italic;
 }
 
 /*** POSITION 8 ***/
