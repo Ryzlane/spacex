@@ -279,6 +279,10 @@ body {
   right: 5%;
 }
 
+.informations .annexes.two p.modified {
+  width: 30%;
+}
+
 .informations .annexes.two .peter-thiel {
   position: absolute;
   right: 0;
@@ -293,6 +297,12 @@ body {
   position: absolute;
   bottom: 0;
   right: 40%;
+}
+
+.informations .falcon1-plan {
+  position: absolute;
+  right: 6%;
+  bottom: 10%;
 }
 
 /*** POSITION 8 ***/
