@@ -5,6 +5,7 @@ const informations = document.querySelector(".informations")
 const detailsContent = document.querySelector(".details-content")
 const rocket = document.querySelector(".rocket")
 
+// change the information content (call the content.js file)
 changingContent = (selected) => {
     informationsOut.classList.add("is-active")
     setTimeout(function() {
@@ -13,6 +14,7 @@ changingContent = (selected) => {
       }, 300)
 }
 
+// change the rocket image depending on the module
 changingRocket = (selected) => {
     if (selected == "one" || selected == "two" || selected == "three") {
         rocket.innerHTML = `<img src="images/falcon1.png" alt="rocket">`

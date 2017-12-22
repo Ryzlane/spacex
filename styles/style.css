@@ -223,7 +223,7 @@ body {
   right: 10%;
 }
 
-/*** POSITION 1 ***/
+/*** POSITION 1 (modules 1, 5, 9, 10) ***/
 
 .informations .details .details-content h3 {
   font-size: 2.5em;
@@ -261,7 +261,7 @@ body {
   bottom: 0;
 }
 
-/*** POSITION 1 MODIFIED  ***/
+/*** MODIFICATIONS OF POSITION 1  ***/
 
 .informations .details.one.modified p {
   width: 80%;
@@ -297,7 +297,7 @@ body {
   width: 200px;
 }
 
-/*** POSITION 2 ***/
+/*** POSITION 2 (modules 2, 3, 4, 6, 7) ***/
 
 .informations .details.two {
   width: 60%;
@@ -349,7 +349,7 @@ body {
   font-style: italic;
 }
 
-/*** POSITION 2 MODIFIED ***/
+/*** MODIFICATIONS OF POSITION 2  ***/
 
 .informations .annexes.two.modified {
   width: 50%;
@@ -404,7 +404,7 @@ body {
   bottom: 10%;
 }
 
-/*** POSITION 8 ***/
+/*** POSITION 3 (module 8) ***/
 
 .details.eight {
   width: 70%;
@@ -435,7 +435,7 @@ body {
   top: 50%;
 }
 
-/*** 10 ***/
+/*** VIDEO MODULE 10 ***/
 
 .informations .video-annexe {
   position: absolute;

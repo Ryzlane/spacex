@@ -1,3 +1,4 @@
+// CONTAINS THE HTML OF EACH INFORMATION PART
 const content = {
     one: `
     <article class="details one">
